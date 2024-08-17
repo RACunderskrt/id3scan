@@ -4,14 +4,10 @@
 Importer la libraire :<br>
 ` #include "mp3.hpp" `
 
-Créer une nouvelle variable  : <br>
+Constructeur : <br>
 `
-        MP3(){}
-        //exemple
-        MP3 file;
+        MP3(){} <br>
         MP3(const char* link)
-        //exemple
-        MP3 file2("music.mp3");
 `
 
 Charger un fichier mp3 : <br>
