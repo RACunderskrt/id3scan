@@ -6,7 +6,7 @@ Importer la libraire :<br>
 
 Constructeur : <br>
 `
-        MP3(){} <br>
+        MP3(){} \n
         MP3(const char* link)
 `
 
