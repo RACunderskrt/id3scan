@@ -50,17 +50,18 @@ Avoir la date d'enregistrement :<br>
 `string getDate()`<br>
 Avoir l'année :<br>
 `string getYear()`<br>
+Avoir les commentaires :<br>
+`vector<string> getComments()`
 Avoir le genre :<br>
 `string getGenre()`<br>
 Avoir les genres :<br>
 `vector<string> getGenres()`<br>
-> dans ces fichiers, le genre est à l'origine juste un nombre. Ce dernier fait référence à un genre de musique grâce à une liste liant les deux.
 Avoir le numéro du genre :<br>
 `int getGenreNumber()`<br>
 Avoir les numéros des genres :<br>
 `vector<int> getGenreNumbers()`<br>
-Avoir les commentaires :<br>
-`vector<string> getComments()`
+> dans ces fichiers, le genre est à l'origine juste un nombre. Ce dernier fait référence à un genre de musique grâce à une liste liant les deux.
+
 
 
 
