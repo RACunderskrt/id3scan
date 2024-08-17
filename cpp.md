@@ -5,7 +5,7 @@ Importer la libraire :<br>
 ` #include "mp3.hpp" `
 
 Constructeur : <br>
-`MP3(){}`
+`MP3(){}` <br>
 `MP3(const char* link)`
 
 Charger un fichier mp3 : <br>
