@@ -1,10 +1,10 @@
 # Id3Scan : C++ Documentation
 
 ### Initialisation
-Importer la libraire :
+Importer la libraire :<br>
 ` #include "mp3.hpp" `
 
-Créer une nouvelle variable  : 
+Créer une nouvelle variable  : <br>
 `
         MP3(){}
         //exemple
@@ -14,52 +14,52 @@ Créer une nouvelle variable  :
         MP3 file2("music.mp3");
 `
 
-Charger un fichier mp3 : 
+Charger un fichier mp3 : <br>
 `
   bool read(const char* path)
   //exemple
   file.read('music.mp3');
 `
 ### Affichage
-Afficher les tags ID3v1 :
-`void displayID3v1Tags()`
+Afficher les tags ID3v1 :<br>
+`void displayID3v1Tags()`<br>
 
-Afficher les tags ID3v2 :
-`void displayID3v2Tags()`
+Afficher les tags ID3v2 :<br>
+`void displayID3v2Tags()`<br>
 
 ### Guetters
-Avoir tous les tags ID3v2 :
-`map<string, vector<string>> getAllData())`
-Avoir le titre :
-`string getTitle()`
-Avoir le sous titre :
-`string getSubTitle()`
-Avoir l'album :
-`string getAlbum()`
-Avoir l'artiste :
-`string getArtist()`
-Avoir les artistes :
-`vector<string> getArtists()`
-Avoir le group :
-`string getBand()`
-Avoir le compositeur :
-`string getComposeur()`
-Avoir la langue :
-`string getLanguage()`
-Avoir la date d'enregistrement :
-`string getDate()`
-Avoir l'année :
-`string getYear()`
-Avoir le genre :
-`string getGenre()`
-Avoir les genres :
-`vector<string> getGenres()`
+Avoir tous les tags ID3v2 :<br>
+`map<string, vector<string>> getAllData())`<br>
+Avoir le titre :<br>
+`string getTitle()`<br>
+Avoir le sous titre :<br>
+`string getSubTitle()`<br>
+Avoir l'album :<br>
+`string getAlbum()`<br>
+Avoir l'artiste :<br>
+`string getArtist()`<br>
+Avoir les artistes :<br>
+`vector<string> getArtists()`<br>
+Avoir le group :<br>
+`string getBand()`<br>
+Avoir le compositeur :<br>
+`string getComposeur()`<br>
+Avoir la langue :<br>
+`string getLanguage()`<br>
+Avoir la date d'enregistrement :<br>
+`string getDate()`<br>
+Avoir l'année :<br>
+`string getYear()`<br>
+Avoir le genre :<br>
+`string getGenre()`<br>
+Avoir les genres :<br>
+`vector<string> getGenres()`<br>
 > dans ces fichiers, le genre est à l'origine juste un nombre. Ce dernier fait référence à un genre de musique grâce à une liste liant les deux.
-Avoir le numéro du genre :
-`int getGenreNumber()`
-Avoir les numéros des genres :
-`vector<int> getGenreNumbers()`
-Avoir les commentaires :
+Avoir le numéro du genre :<br>
+`int getGenreNumber()`<br>
+Avoir les numéros des genres :<br>
+`vector<int> getGenreNumbers()`<br>
+Avoir les commentaires :<br>
 `vector<string> getComments()`
 
 
