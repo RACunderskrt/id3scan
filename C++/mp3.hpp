@@ -117,6 +117,10 @@ class MP3{
     public:
         MP3(){}
 
+        MP3(const char* link){
+            read(link);
+        }
+
         ~MP3(){
             data.clear();
             id3v2Data.clear();
